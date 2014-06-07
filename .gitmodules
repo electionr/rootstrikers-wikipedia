@@ -7,3 +7,6 @@
 [submodule "FECFieldDocumentation"]
 	path = FECFieldDocumentation
 	url = git@github.com:h4ck3rm1k3/FEC-Field-Documentation.git
+[submodule "fech_yaml"]
+	path = fech_yaml
+	url = git@github.com:electionr/federal-election-commission-aggregation-years.git
