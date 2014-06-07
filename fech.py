@@ -1,6 +1,24 @@
+
+    # fech.py the FEC data processor
+    # Copyright (C) 2013-2014 James Michael DuPont
+
+    # This program is free software: you can redistribute it and/or modify
+    # it under the terms of the GNU General Public License as published by
+    # the Free Software Foundation, either version 3 of the License, or
+    # (at your option) any later version.
+
+    # This program is distributed in the hope that it will be useful,
+    # but WITHOUT ANY WARRANTY; without even the implied warranty of
+    # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    # GNU General Public License for more details.
+
+    # You should have received a copy of the GNU General Public License
+    # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 # porting of fetch to python code borrowed from https://github.com/NYTimes/Fech
-# wich is under the apache license
+# which is under the apache license
 # https://github.com/NYTimes/Fech/blob/master/LICENSE
+
 import re
 import traceback 
 #state enum
@@ -21,7 +39,7 @@ import fechout
 import sys
 #import fec.version.v1.F1
 #import fec.version.v1 as v1
-
+sys.path.append('FECFieldDocumentation')
 import fec.version.v1
 import fec.version.v2
 test2= fec.version.v2.Version()
