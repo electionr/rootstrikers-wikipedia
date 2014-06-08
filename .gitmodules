@@ -1,12 +1,12 @@
 [submodule "congress-legislators"]
 	path = congress-legislators
-	url = git@github.com:h4ck3rm1k3/congress-legislators.git
+	url = git@github.com:electionr/congress-legislators.git
 [submodule "maplight-convert"]
 	path = maplight-convert
-	url = git@github.com:h4ck3rm1k3/rootstriker-fec-maplight-wiki.git
+	url = git@github.com:electionr/rootstriker-fec-maplight-wiki.git
 [submodule "FECFieldDocumentation"]
 	path = FECFieldDocumentation
-	url = git@github.com:h4ck3rm1k3/FEC-Field-Documentation.git
+	url = git@github.com:electionr/FEC-Field-Documentation.git
 [submodule "fech_yaml"]
 	path = fech_yaml
 	url = git@github.com:electionr/federal-election-commission-aggregation-years.git
